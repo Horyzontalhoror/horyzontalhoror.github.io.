@@ -9,36 +9,36 @@ templateEngineOverride: liquid
     <subtitle>{{ libdocConfig.siteDescription }}</subtitle>
     <link href="{{ permalink }}" rel="self" />
     <link href="{{ libdocConfig.productionUrl }}{{ page.url }}" />
-    <updated>{{ collections.post | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <updated>{{ "now" | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
     <id>{{ libdocConfig.productionUrl }}{{ page.url }}</id>
     <author>
         <name>
-            {%- if libdocConfig.blogAuthor == false -%}
+            {%- if libdocConfig.blogAuthor == false or libdocConfig.blogAuthor == nil -%}
                 11ty LibDoc
             {%- else -%}
                 {{ libdocConfig.blogAuthor }}
             {%- endif -%}
         </name>
     </author>
-    {%- for post in collections.post | reverse %}
-        {%- set absolutePostUrl %}{{ libdocConfig.productionUrl }}{{ post.url }}{% endset %}
+    {%- for post in collections.post reversed %}
+        {%- assign absolutePostUrl = libdocConfig.productionUrl | append: post.url %}
         <entry>
             <title>
-                {%- if post.data.title == '' -%}
+                {%- if post.data.title == '' or post.data.title == nil -%}
                     {{ post.inputPath }}
                 {%- else -%}
                     {{ post.data.title }}
                 {%- endif -%}
             </title>
             <link href="{{ absolutePostUrl }}" />
-            <updated>{{ post.date | dateToRfc3339 }}</updated>
+            <updated>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
             <id>{{ absolutePostUrl }}</id>
             <author>
                 <name>
-                    {%- if post.data.author != false and post.data.author != '' and post.data.author != null -%}
+                    {%- if post.data.author != false and post.data.author != '' and post.data.author != nil -%}
                         {{ post.data.author }}
                     {%- else -%}
-                        {%- if libdocConfig.blogAuthor == false -%}
+                        {%- if libdocConfig.blogAuthor == false or libdocConfig.blogAuthor == nil -%}
                             11ty LibDoc
                         {%- else -%}
                             {{ libdocConfig.blogAuthor }}
@@ -47,10 +47,10 @@ templateEngineOverride: liquid
                 </name>
             </author>
             <content type="html">
-                {% if post.data.ogImageUrl !== false and post.data.ogImageUrl != '' and post.data.ogImageUrl != null %}
+                {% if post.data.ogImageUrl != false and post.data.ogImageUrl != '' and post.data.ogImageUrl != nil %}
                     &lt;img src=&quot;{{ post.data.ogImageUrl }}&quot; alt=&quot;{{ post.data.title }}&quot;&gt;
                 {% endif %}
-                {{- post.content | renderTransforms(post.data.page, libdocConfig.productionUrl) -}}
+                {{- post.content | strip_html -}}
             </content>
         </entry>
     {%- endfor %}
