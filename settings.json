@@ -1,0 +1,32 @@
+{
+    "siteTitle": "ALink",
+    "siteDescription": "This is the description of my project title",
+    "author": "Doby_Don",
+    "faviconUrl": "/assets/myfavicon.png",
+    "blogTitle": "Blog",
+    "blogDescription": "Blog and other resources",
+    "productionUrl": "https://eleventy-libdoc.netlify.app",
+    "customLinks": [
+        {
+            "url": "/feed.xml",
+            "text": "Atom feed"
+        },
+        {
+            "url": "https://github.com/ita-design-system/eleventy-libdoc",
+            "text": "GitHub"
+        },
+        {
+            "url": "#",
+            "text": "Bluesky"
+        },
+        {
+            "url": "#",
+            "text": "LinkedIn"
+        },
+        {
+            "url": "#",
+            "text": "CodePen"
+        }
+    ],
+    "editThisPageRootUrl": "https://github.com/ita-design-system/eleventy-libdoc/blob/main"
+}
