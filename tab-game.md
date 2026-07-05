@@ -12,40 +12,39 @@ tags:
 ---
 
 
-{% alert 'Blokir iklan denga [Ad Blcok](https://dobydon.github.io/internet/#ad-block), Gunakan [Download Manager](https://dobydon.github.io/windows/#download-managers) untuk mengunduh file. Install [Useful Tools](https://dobydon.github.io/windows/#useful-tools) sebelum menjalankan game', 'info' %}
+{% alert '**Blokir iklan denga [Ad Blcok](http://horyzontalhoror.github.io/Internet/#ad-block), Gunakan [Download Manager](http://horyzontalhoror.github.io/Download/#download-managers) untuk mengunduh file. Install [Useful Tools](http://horyzontalhoror.github.io/windows/#useful-utilities) sebelum menjalankan game**', 'info', 'Info' %}
 
 #### Gaming Utility
-
 - [Before I Play](https://beforeiplay.com/index.php?title=Category:Games)
 - [Can you RUN It](https://www.systemrequirementslab.com/cyri/)
 - [Game Recommendation Engine](https://apps.quanticfoundry.com/recommendations/gamerprofile/videogame/)
 
 #### Game Store
-
-- [Hydralauncher](https://hydralauncher.gg/) - Crack Launcher
-  - [Library](https://library.hydra.wiki/)
 - [Steam](https://store.steampowered.com/)
   - [SteamDB](https://steamdb.info/) - [Ekstensi](https://steamdb.info/extension/)
   - [Free packages](https://steamdb.info/freepackages/)
 - [GOG](https://www.gog.com/)
   - [GOG to Free](https://greasyfork.org/en/scripts/481134-gog-to-free-download-site)
+- [Itch](https://itch.io/)
 - [GG Deals](https://gg.deals/deals/)
 
-#### Free Games
+#### Game Launcher
+- [Playnite](https://playnite.link/)
+  - [addons](https://playnite.link/addons.html)
+- [Hydralauncher](https://hydralauncher.gg/) - Crack Launcher
+  - [Library](https://library.hydra.wiki/)
 
+#### Free Games
 - [IsThereAnyDeal](https://isthereanydeal.com/giveaways/)
 - [Free250](https://steam250.com/price/free)
-- [Itch.io](https://itch.io/)
+- [Itch.io](https://itch.io/games/free)
 
 #### DLC Unlocker
-
 - [Cream Installer](https://gofile.io/d/90Exof) - Cream API
   - [Github](https://github.com/sudojoao/CreamAPI)
   - [Introduction](https://rentry.co/ALink-CreamInstaller)
   
 #### Download
-
-- [Steamrip](https://steamrip.com/)
 - [Steamgg](https://steamgg.net/)
 - [Gamebounty](https://gamebounty.world/)
 - [Gog-games](https://gog-games.to/)
@@ -53,9 +52,11 @@ tags:
 - [Fitgirl-repacks](https://fitgirl-repacks.site/)
 - [Elamigos](https://elamigos.site/) - Tersedia juga di ova games
 - [Ova games](https://www.ovagames.com/) - *Password:* `www.ovagames.com`
+- [ankergames](https://ankergames.net/)
+- [Steamrip](https://steamrip.com/)
+- [hizsearch](https://hizsearch.pages.dev/) - search game
 
 #### Mod Manager
-
 - [Vortex](https://www.nexusmods.com/about/vortex) - Nexus Mod manager
 - [Mod Organizer 2](https://github.com/ModOrganizer2/modorganizer)
   - [Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/6194)
@@ -63,7 +64,6 @@ tags:
   - [Discord](https://discord.gg/ewUVAqyrQX)
 
 #### Modding website
-
 - [Nexus mods](https://www.nexusmods.com/)
 - [Far Cry Modding](https://fcmodding.com/) - Far Cry 3, 4, 5, 6, Primal, ND
   - [Discord](https://discord.com/servers/far-cry-modding-community-846424998888734731)
@@ -81,7 +81,6 @@ tags:
   - [Moddb](https://www.moddb.com/) - Komunitas mod game tertua yang menghubungkan pemain, pengembang, dan ide kreatif.
 
 #### Trainer
-
 - [Cheat Engine](https://www.cheatengine.org/)
 - [FLiNG](https://flingtrainer.com/)
 - [MrAntiFun](https://mrantifun.net/ )

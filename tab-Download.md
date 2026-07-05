@@ -27,6 +27,8 @@ tags:
 - [HTTP Downloader](https://erickutcher.github.io/)
 
 #### Sites
+{% alert '**Blokir iklan denga [Ad Blcok](http://horyzontalhoror.github.io/Internet/#ad-block) dan Gunakan [Download Manager](http://horyzontalhoror.github.io/Download/#download-managers) untuk mengunduh file.**', 'info', 'Info' %}
+
 - [Virgil Samidy](https://virgil.samidy.com/Software/)
 - [Cracksurl](https://cracksurl.com/)
 - [Microsoft Store](https://apps.microsoft.com/apps?hl=en-US&gl=ID) - Microsoft Store

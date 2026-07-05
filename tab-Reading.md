@@ -12,13 +12,11 @@ tags:
 ---
 
 #### Komik
-
 - [Readcomiconline](https://rcostation.xyz/) - Situs komik online
 - [Getcomics](https://getcomics.org/) - Situs komik online
 - [Komik Cse](https://cse.google.com/cse?cx=006516753008110874046:p4hgytyrohg) - Pencarian Komik Multi-Situs
 
 #### Manga
-
 - [Mangadex](https://mangadex.org/) - Situs manga online
   - [Mangadex-download](https://mangadex-dl.mansuf.link/) - Unduh manga dari `MangaDex.org`
   - [Script](https://github.com/frozenpandaman/mangadex-dl) - Script unduh manga
@@ -27,6 +25,11 @@ tags:
 - [Ballons Translator](https://github.com/dmMaze/BallonsTranslator/blob/master/README_EN.md) - Penerjemah Manga
   - [Cotrans](https://cotrans.touhou.ai/)
 
-#### Pemerograman
+#### Reading Tools
+- [Calibre](https://calibre-ebook.com/)
+  - [Plugins](https://plugins.calibre-ebook.com/)
+  - [Plugins for Mobile](https://www.mobileread.com/forums/forumdisplay.php?f=237)
+- [ComicRack Community Edition](https://github.com/maforget/ComicRackCE)
 
+#### Pemerograman
 - [free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-id.md) - Kumpulan buku bahasa pemerograman

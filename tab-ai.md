@@ -35,3 +35,8 @@ tags:
     - [ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use) - Easy to use ComfyUI
     - [RunComfy](https://www.runcomfy.com/) - Online ComfyUI
     - [ComfyUI_IPAdapter_plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) - IPAdapter plugin for ComfyUI
+- [Ollama](https://ollama.com/) - Local AI
+  - [Model search](https://ollama.com/search)
+- [Llama App](https://llama.app/) - Local AI
+  - [GitHub](https://github.com/ggml-org/llama.cpp)
+  - [Reddit guide](https://www.reddit.com/r/LocalLLaMA/comments/1h2hioi/ive_made_an_ultimate_guide_about_building_and/) / [Blog guide](https://blog.steelph0enix.dev/posts/llama-cpp-guide/) - Comprehensive guides

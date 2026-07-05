@@ -11,8 +11,7 @@ tags:
 # date: 2024-01-01
 ---
 
-> Blokir iklan denga [Ad Blcok](https://dobydon.github.io/internet/#ad-block)
-{: .prompt-info }
+{% alert '**Blokir iklan denga [Ad Blcok](http://horyzontalhoror.github.io/Internet/#ad-block)**','info','Info' %}
 
 #### Film / Series
 

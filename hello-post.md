@@ -5,7 +5,7 @@ layout: libdoc_page.liquid
 permalink: "{{ libdocConfig.blogSlug }}/disclaimer/index.html"
 tags:
     - post
-    - open-graph-image
+    - disclaimer
 date: 2025-05-15
 ogImageUrl: https://www.pngall.com/wp-content/uploads/2017/05/Disclaimer-Symbol-Transparent.png
 author: Doby Don

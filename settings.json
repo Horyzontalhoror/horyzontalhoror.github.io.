@@ -6,14 +6,14 @@
     "blogTitle": "Blog",
     "blogDescription": "Blog and other resources",
     "htmlBasePathPrefix": "/horyzontalhoror.github.io/",
-    "productionUrl": "https://horyzontalhoror.github.io/horyzontalhoror.github.io",
+    "productionUrl": "https://horyzontalhoror.github.io",
     "customLinks": [
         {
             "url": "/feed.xml",
             "text": "Atom feed"
         },
         {
-            "url": "https://github.com/horyzontalhoror/horyzontalhoror.github.io",
+            "url": "https://github.com/horyzontalhoror/",
             "text": "GitHub"
         },
         {
@@ -29,5 +29,5 @@
             "text": "CodePen"
         }
     ],
-    "editThisPageRootUrl": "https://github.com/horyzontalhoror/horyzontalhoror.github.io/blob/main"
+    "editThisPageRootUrl": "https://github.com/horyzontalhoror/blob/main"
 }
