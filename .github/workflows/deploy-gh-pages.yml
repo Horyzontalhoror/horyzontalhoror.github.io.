@@ -2,7 +2,7 @@ name: Build and Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"] # Sesuaikan jika branch utama kamu 'master'
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -11,24 +11,25 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true # 💡 CHANGED: Automatically cancels older runs to prevent duplicate artifacts
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # Diupdate dari v3 ke v4
-      - uses: actions/setup-node@v4 # Diupdate dari v3 ke v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22 # 💡 UPDATED: Node 18 is EOL; Node 22/24 prevents compatibility issues with upload v4
+          cache: 'npm'     # 💡 BONUS: Speeds up your build
       - name: Install dependencies
-        run: npm install
+        run: npm ci        # 💡 BONUS: 'npm ci' is cleaner and faster for CI/CD than 'npm install'
       - name: Build Eleventy
         run: npx @11ty/eleventy
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 # Diupdate dari v2 ke v3 (menggunakan upload-artifact v4 di baliknya)
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site' # Pastikan folder ini sesuai dengan output Eleventy kamu
+          path: '_site'
 
   deploy:
     environment:
@@ -38,4 +39,4 @@ jobs:
     needs: build
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4 # Diupdate dari v2 ke v4
+        uses: actions/deploy-pages@v4
