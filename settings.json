@@ -5,14 +5,15 @@
     "faviconUrl": "/assets/myfavicon.png",
     "blogTitle": "Blog",
     "blogDescription": "Blog and other resources",
-    "productionUrl": "https://eleventy-libdoc.netlify.app",
+    "htmlBasePathPrefix": "/horyzontalhoror.github.io./",
+    "productionUrl": "https://horyzontalhoror.github.io/horyzontalhoror.github.io.",
     "customLinks": [
         {
             "url": "/feed.xml",
             "text": "Atom feed"
         },
         {
-            "url": "https://github.com/ita-design-system/eleventy-libdoc",
+            "url": "https://github.com/horyzontalhoror/horyzontalhoror.github.io.",
             "text": "GitHub"
         },
         {
@@ -28,5 +29,5 @@
             "text": "CodePen"
         }
     ],
-    "editThisPageRootUrl": "https://github.com/ita-design-system/eleventy-libdoc/blob/main"
+    "editThisPageRootUrl": "https://github.com/horyzontalhoror/horyzontalhoror.github.io./blob/main"
 }
