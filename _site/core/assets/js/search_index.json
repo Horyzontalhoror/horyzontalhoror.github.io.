@@ -5,9 +5,9 @@
                 "content": " disclaimer "
             },
             {
-                "url": "/horyzontalhoror.github.io/tags/Ai",
-                "title": "Tag Ai",
-                "content": " Ai "
+                "url": "/horyzontalhoror.github.io/tags/Audio",
+                "title": "Tag Audio",
+                "content": " Audio "
             },
             {
                 "url": "/horyzontalhoror.github.io/tags/widgets",
@@ -15,9 +15,9 @@
                 "content": " widgets "
             },
             {
-                "url": "/horyzontalhoror.github.io/tags/Audio",
-                "title": "Tag Audio",
-                "content": " Audio "
+                "url": "/horyzontalhoror.github.io/tags/Ai",
+                "title": "Tag Ai",
+                "content": " Ai "
             },
             {
                 "url": "/horyzontalhoror.github.io/tags/Develop",
@@ -30,11 +30,6 @@
                 "content": " Download "
             },
             {
-                "url": "/horyzontalhoror.github.io/tags/Internet",
-                "title": "Tag Internet",
-                "content": " Internet "
-            },
-            {
                 "url": "/horyzontalhoror.github.io/tags/Game",
                 "title": "Tag Game",
                 "content": " Game "
@@ -43,6 +38,11 @@
                 "url": "/horyzontalhoror.github.io/tags/Keamanan",
                 "title": "Tag Keamanan",
                 "content": " Keamanan "
+            },
+            {
+                "url": "/horyzontalhoror.github.io/tags/Internet",
+                "title": "Tag Internet",
+                "content": " Internet "
             },
             {
                 "url": "/horyzontalhoror.github.io/tags/Lainnya",
@@ -77,7 +77,7 @@
         {
             "url": "/horyzontalhoror.github.io/tags/",
             "title": "./core/libdoc_tags.liquid",
-            "content": "  disclaimer 1 page Ai 1 page widgets 1 page Audio 1 page Develop 1 page Download 1 page Internet 1 page Game 1 page Keamanan 1 page Lainnya 1 page Reading 1 page Stream 1 page windows 1 page"
+            "content": "  disclaimer 1 page Audio 1 page widgets 1 page Ai 1 page Develop 1 page Download 1 page Game 1 page Keamanan 1 page Internet 1 page Lainnya 1 page Reading 1 page Stream 1 page windows 1 page"
         },
         {
             "url": "/horyzontalhoror.github.io/",
