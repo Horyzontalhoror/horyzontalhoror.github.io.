@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>ALink</title>
+    <subtitle>This is the description of my project title</subtitle>
+    <link href="feed.xml" rel="self" />
+    <link href="https://horyzontalhoror.github.io/feed.xml" />
+    <updated>2026-07-05T22:16:06Z</updated>
+    <id>https://horyzontalhoror.github.io/feed.xml</id>
+    <author>
+        <name>11ty LibDoc</name>
+    </author>
+        <entry>
+            <title>Disclaimer</title>
+            <link href="https://horyzontalhoror.github.io/posts/disclaimer/" />
+            <updated>2025-05-15T07:00:00Z</updated>
+            <id>https://horyzontalhoror.github.io/posts/disclaimer/</id>
+            <author>
+                <name>Doby Don</name>
+            </author>
+            <content type="html">
+                
+                    &lt;img src=&quot;https://www.pngall.com/wp-content/uploads/2017/05/Disclaimer-Symbol-Transparent.png&quot; alt=&quot;Disclaimer&quot;&gt;
+                
+Disclaimer
+
+Tautan yang ada di halaman ini berasal dari pihak ketiga.
+Kami tidak menyimpan atau menghosting file apa pun.
+Aktivitas mengunduh, menggunakan, atau berinteraksi dengan tautan tersebut sepenuhnya menjadi tanggung jawab pengguna.
+Sebelum melanjutkan, pastikan dulu legalitas dan keamanannya agar tetap aman dan nyaman.
+
+</content>
+        </entry>
+</feed>

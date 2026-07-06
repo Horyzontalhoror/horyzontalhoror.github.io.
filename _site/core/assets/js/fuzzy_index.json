@@ -1,0 +1,77 @@
+[
+        {
+            "url": "/horyzontalhoror.github.io/posts/disclaimer/",
+            "title": "Disclaimer",
+            "description": "Disclaimer untuk tautan-tautan di halaman ini post disclaimer"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/posts/",
+            "title": "./core/libdoc_blog.liquid",
+            "description": " "
+        },
+        {
+            "url": "/horyzontalhoror.github.io/tags/",
+            "title": "./core/libdoc_tags.liquid",
+            "description": " "
+        },
+        {
+            "url": "/horyzontalhoror.github.io/",
+            "title": "Hello World!",
+            "description": "I am the home page of this project widgets"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/windows/",
+            "title": "windows!",
+            "description": " windows"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/AI/",
+            "title": "Ai!",
+            "description": " Ai"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/Audio/",
+            "title": "Audio!",
+            "description": " Audio"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/Reading/",
+            "title": "Reading!",
+            "description": " Reading"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/Develop/",
+            "title": "Develop!",
+            "description": " Develop"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/Game/",
+            "title": "Game!",
+            "description": " Game"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/Internet/",
+            "title": "Internet!",
+            "description": " Internet"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/Stream/",
+            "title": "Stream!",
+            "description": " Stream"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/Keamanan/",
+            "title": "Keamanan!",
+            "description": " Keamanan"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/Lainnya/",
+            "title": "Lainnya!",
+            "description": " Lainnya"
+        },
+        {
+            "url": "/horyzontalhoror.github.io/Download/",
+            "title": "Download!",
+            "description": " Download"
+        }
+]
